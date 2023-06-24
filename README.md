@@ -1,2 +1,4 @@
 # OpenBIOS
-The Open-Source version of the BIOS firmware
+### The Open-Source alternative to the BIOS firmware
+---
+What is the **OpenBIOS** project?

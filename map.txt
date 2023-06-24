@@ -1,0 +1,16 @@
+OpenBIOS:
+        SETUP
+          \--------> Setup GDT and Memory Segments
+           \
+            \----------> Setup IDT, IRS and IRQ
+             \
+              \------------> Setup main Char and Block Drivers (Keyboard, PATA, VGA)
+               \
+                \--------------> Setup INTs and Functions
+                POST
+                  \--------> Check Disk
+                 SERVICE
+                    \--------> Load Menu and Control Panel if asked by User
+                     \
+                      \----------> Load and Execute MBR at Addrress `0x7c00`
+
